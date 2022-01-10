@@ -17,7 +17,7 @@ namespace AdminGrayWolfi
                 Console.WriteLine("Even number");
             else
                 Console.WriteLine("Odd number ");
-            Console.WriteLine("if you dont want this window press any key to close thanks !");
+            Console.WriteLine("When you command me i will close this windows !!! Ready for command Sir !");
             Console.ReadKey(true);
         }
     }
