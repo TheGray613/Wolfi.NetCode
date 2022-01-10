@@ -9,7 +9,7 @@ namespace AdminGrayWolfi
         static void Main(string[] args)
         {
             Int32 num;
-            Console.Write("AminWolfi:pls insert youre firts number Bro   ");
+            Console.WriteLine("AminWolfi:pls insert youre first number ");
 
             num = Convert.ToInt32(Console.ReadLine());
 
