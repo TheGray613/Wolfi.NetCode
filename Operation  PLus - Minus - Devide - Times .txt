@@ -1,0 +1,32 @@
+using System;
+
+namespace AdminGrayWolfi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float Num_1, Num_2;
+            char operation;
+            Console.Write("Pls insert youre first number:");
+            Num_1 = Convert.ToSingle(Console.ReadLine());
+            Console.Write("Youre first number is : {0}\n", Num_1);
+
+            Console.Write("Pls insert youre second number:");
+            Num_2 = Convert.ToSingle(Console.ReadLine());
+            Console.Write("Youre second number is : {0}\n", Num_2);
+
+            Console.Write("Pls insert youre operation:(+, -, *, /)");
+            operation = Convert.ToChar(Console.ReadLine());
+
+            if (operation == '+')
+                Console.WriteLine("{0} + {1} = {2}", Num_2, Num_2, Num_1 + Num_2);
+            else if (operation == '-')
+                Console.WriteLine("{0} - {1} = {2}", Num_2, Num_2, Num_1 - Num_2);
+            else if (operation == '*')
+                Console.WriteLine("{0} * {1} = {2}", Num_2, Num_2, Num_1 * Num_2);
+            else
+                Console.WriteLine("You choose wrong operation");
+        }
+    }
+}
