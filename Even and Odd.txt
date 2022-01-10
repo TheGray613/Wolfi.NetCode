@@ -1,0 +1,24 @@
+using System;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AdminGrayWolfi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Int32 num;
+            Console.Write("AminWolfi:pls insert youre firts number Bro   ");
+
+            num = Convert.ToInt32(Console.ReadLine());
+
+            if (num % 2 == 0)
+                Console.WriteLine("Even number");
+            else
+                Console.WriteLine("Odd number ");
+            Console.WriteLine("if you dont want this window press any key to close thanks !");
+            Console.ReadKey(true);
+        }
+    }
+}
