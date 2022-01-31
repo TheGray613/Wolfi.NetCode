@@ -1,2 +1,2 @@
 # Wolfi.NetCode
-All my C# code here easy and base code - medium code level - hard code level
+All my C# code here Easy and base code - Medium code level - Tough code level
