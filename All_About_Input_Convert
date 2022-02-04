@@ -1,0 +1,26 @@
+using System;
+
+namespace All_About_Input_Convert
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int Age;
+            int Fathers_Age;
+            sbyte Mothers_Age;
+            //int.TryParse(Console.ReadLine(), out s);
+            //AGE = Convert.ToSByte(Console.ReadLine());
+            Console.WriteLine("pls insert youre Age: ");
+            Age = sbyte.Parse(Console.ReadLine());
+            Console.WriteLine("youre age is : {0} ", Age);
+            Console.WriteLine("Pls insert youre Fathers age: ");
+            Fathers_Age = Convert.ToSByte(Console.ReadLine());
+            Console.WriteLine("youre Father age is : {0} ", Fathers_Age);
+            Console.WriteLine("Pls insert youre Mothers age: ");
+            sbyte.TryParse(Console.ReadLine(), out Mothers_Age);
+            Console.WriteLine("youre Mother age is : {0} ", Mothers_Age);
+            Console.ReadKey(true);
+        }
+    }
+}
