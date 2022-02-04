@@ -1,0 +1,25 @@
+using System;
+
+namespace Name_Family_Age_AgeByDay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string Name, Family;
+            byte Age;
+            Int64 Age_day;
+            Console.Write("pls insert youre name:      ");
+            Name = Console.ReadLine();
+
+            Console.Write("pls insert youre family:      ");
+            Family = Console.ReadLine();
+
+            Console.Write("pls insert youre age:      ");
+            Age = Byte.Parse(Console.ReadLine());
+
+            Age_day = (Age * 365) + (Age / 4);
+            Console.Write("youre Name is : {0} \nyoure Family is  : {1} \nyoure Age is : {2} \nyoure living day : {3} \n", Name, Family, Age, Age_day);
+        }
+    }
+}
