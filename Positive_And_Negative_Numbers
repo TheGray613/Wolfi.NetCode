@@ -6,16 +6,20 @@ namespace Positive_And_Negative_Numbers
     {
         static void Main(string[] args)
         {
-            Int32 number;
-            Console.WriteLine("pls insert you're number: ");
-            number = Convert.ToInt32(Console.ReadLine());
-            if (number > 0)
-                Console.WriteLine("This number is positive");
-            else if (number < 0)
-                Console.WriteLine("This number is negative");
-            else
-                Console.WriteLine("This number is 0,ARE YOU KIDDING ME ???");
-            Console.ReadKey(true);
+            byte i;
+            short Number;
+            for(i=1;i<=10;i++)
+            {
+                //positive and negative numbers(focus on for)
+                Console.WriteLine("Pls insert you're number: ");
+                Number = Convert.ToInt16(Console.ReadLine());
+                if (Number > 0)
+                    Console.WriteLine("This number is Positive");
+                else if (Number < 0)
+                    Console.WriteLine("This number is negative");
+                else
+                    break;
+            } 
         }
     }
 }
