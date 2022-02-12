@@ -1,0 +1,25 @@
+using System;
+
+namespace All_in_S4_LasrPart
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Int16 number;
+            char ch;
+            do
+            {
+                Console.WriteLine("Pls insert youre number ");
+                number = Convert.ToInt16(Console.ReadLine());
+
+                Console.WriteLine("{0}  {1}  {2}", number - 1, number, number + 1);
+
+                Console.WriteLine("Continue ? (y,n)");
+                ch = Convert.ToChar(Console.ReadLine());
+            } 
+
+            while (ch == 'y' || ch == 'Y');
+        }
+    }
+}
